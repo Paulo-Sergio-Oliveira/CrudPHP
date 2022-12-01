@@ -1,8 +1,8 @@
 <?php
-$bank = "crudphp2022";
-$host = "127.0.0.1";
-$user_bd = "root";
-$pass_bd = "";
+$bank = "info2021_pso";
+$host = "localhost";
+$user_bd = "info2021_pso";
+$pass_bd = "Senha123";
 $charset = "utf8";
 
 $config = "mysql:dbname=$bank;";

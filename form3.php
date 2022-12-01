@@ -12,8 +12,12 @@
 <body>
     <section>
         <div class="container">
-        <header> <h2>Formulário de Cadastro</h2> </header>
-            <form method="POST" action="insert.php">
+        <header> <h2>Atualize um registro</h2> </header>
+            <form method="POST" action="update.php">
+                <div class="mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">ID</span>
+                    <input autofocus type="text" name="id" class="form-control" placeholder="Nome completo do Professor" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
                 <div class="mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-lg">Professor</span>
                     <input autofocus type="text" name="prof" class="form-control" placeholder="Nome completo do Professor" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
@@ -31,11 +35,11 @@
                     <input type="email" name="email" class="form-control" placeholder="Exemplo@gmail.com" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                     <div id="emailHelp" class="form-text">Nenhuma das informações desse cadastro serão compartilhadas.</div>
                 </div>
-                <button type="submit" class="btn btn-primary">Cadastrar</button> 
+                <button type="submit" class="btn btn-primary">Atualizar</button> 
             </form>
                 <br>
-                Deseja deletar algum registro? <a href="form2.php">Clique aqui!</a> <br>
-                Deseja alterar algum registro? <a href="form3.php">Clique aqui!</a>
+                Deseja inserir algum registro? <a href="form.php">Clique aqui!</a> <br>
+                Deseja deletar algum registro? <a href="form2.php">Clique aqui!</a>
             <footer>
                 <br>
                 EEEP Amélia - 2022
